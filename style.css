@@ -1,0 +1,95 @@
+button{width: 210px; height:auto;
+  align-items: center;}
+
+#calendar{
+    margin:50px auto;
+   
+    width:415px;
+    height:475px;
+    border: 2px solid darkslategray;
+    box-shadow: 2px 2px darkslategrey;
+}
+
+#day-selector{
+    height:55px;
+    width: 350px;
+    padding:0px;
+    border-bottom: 1px solid black;
+    
+    border-right: 1px solid black;
+   
+    display: flex;
+    flex-direction: row;
+}
+
+#day-selector-input{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2.0rem;
+
+    text-align: center;
+    width: 330px;
+   
+    padding: 4px 10px;
+}
+
+#day-selector-btn{
+    border: 1px solid black;
+}
+
+.month-and-year{
+
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.4em;
+    width: inherit;
+    padding: 0px 7px;
+
+    font-weight: 500;
+}  
+.month-and-year h5{
+  margin: 18px 5px;
+  padding-right:2px;
+}  
+
+.month-and-year img{
+    margin: 10px 5px;
+    padding: 10px;
+}
+
+.week-days{
+    width: inherit;
+    height:max-content;
+    padding-left:21px ;
+  
+    padding:5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size:1.75em;
+}
+
+.week-days h6{
+    margin:3px 10px;
+    padding:0px;
+}
+
+.day-cells{
+
+   
+   padding:1px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+   
+}
+
+.day-cells h6{
+    margin: 1px auto;
+    border: 1px solid grey;
+    width:14px;
+    padding: 15px 21px;
+    text-align: center;
+    font-size: 1.75em;
+    
+}
